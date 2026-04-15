@@ -17,7 +17,7 @@ Database Creation: The project starts by creating a database named p1_retail_db.
 Table Creation: A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 CREATE DATABASE p1_retail_db;
 
-CREATE TABLE retail_sales
+'''CREATE TABLE retail_sales
 (
     transactions_id INT PRIMARY KEY,
     sale_date DATE,	
@@ -31,3 +31,4 @@ CREATE TABLE retail_sales
     cogs FLOAT,
     total_sale FLOAT
 );
+'''
